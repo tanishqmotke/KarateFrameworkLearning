@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="10.299" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/test-classes:/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/classes:/Users/tanishqmotke/.m2/repository/com/intuit/karate/karate-junit5/1.3.1/karate-junit5-1.3.1.jar:/Users/tanishqmotke/.m2/repository/com/intuit/karate/karate-core/1.3.1/karate-core-1.3.1.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/js/js-scriptengine/22.0.0.2/js-scriptengine-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/sdk/graal-sdk/22.0.0.2/graal-sdk-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/js/js/22.0.0.2/js-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/regex/regex/22.0.0.2/regex-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/truffle/truffle-api/22.0.0.2/truffle-api-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/thymeleaf/thymeleaf/3.0.14.RELEASE/thymeleaf-3.0.14.RELEASE.jar:/Users/tanishqmotke/.m2/repository/ognl/ognl/3.1.26/ognl-3.1.26.jar:/Users/tanishqmotke/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/tanishqmotke/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/Users/tanishqmotke/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/tanishqmotke/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/tanishqmotke/.m2/repository/com/linecorp/armeria/armeria/1.18.0/armeria-1.18.0.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/tanishqmotke/.m2/repository/io/micrometer/micrometer-core/1.9.2/micrometer-core-1.9.2.jar:/Users/tanishqmotke/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/tanishqmotke/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-haproxy/4.1.79.Final/netty-codec-haproxy-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/tanishqmotke/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-classes/2.0.53.Final/netty-tcnative-classes-2.0.53.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-linux-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-osx-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-osx-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-windows-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.jar:/Users/tanishqmotke/.m2/repository/com/aayushatharva/brotli4j/native-osx-x86_64/1.7.1/native-osx-x86_64-1.7.1.jar:/Users/tanishqmotke/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tanishqmotke/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tanishqmotke/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tanishqmotke/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/Users/tanishqmotke/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/Users/tanishqmotke/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar:/Users/tanishqmotke/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/Users/tanishqmotke/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/Users/tanishqmotke/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/tanishqmotke/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/tanishqmotke/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/tanishqmotke/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/tanishqmotke/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/tanishqmotke/.m2/repository/org/yaml/snakeyaml/1.32/snakeyaml-1.32.jar:/Users/tanishqmotke/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/tanishqmotke/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/tanishqmotke/.m2/repository/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149.jar:/Users/tanishqmotke/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/tanishqmotke/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/tanishqmotke/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/tanishqmotke/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/tanishqmotke/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tanishqmotke/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/tanishqmotke/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/tanishqmotke/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/surefire/surefirebooter8659473746922642060.jar /Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/surefire 2023-04-19T23-45-05_199-jvmRun1 surefire17972310188362602311tmp surefire_04869356138363175532tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/test-classes:/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/classes:/Users/tanishqmotke/.m2/repository/com/intuit/karate/karate-junit5/1.3.1/karate-junit5-1.3.1.jar:/Users/tanishqmotke/.m2/repository/com/intuit/karate/karate-core/1.3.1/karate-core-1.3.1.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/js/js-scriptengine/22.0.0.2/js-scriptengine-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/sdk/graal-sdk/22.0.0.2/graal-sdk-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/js/js/22.0.0.2/js-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/regex/regex/22.0.0.2/regex-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/graalvm/truffle/truffle-api/22.0.0.2/truffle-api-22.0.0.2.jar:/Users/tanishqmotke/.m2/repository/org/thymeleaf/thymeleaf/3.0.14.RELEASE/thymeleaf-3.0.14.RELEASE.jar:/Users/tanishqmotke/.m2/repository/ognl/ognl/3.1.26/ognl-3.1.26.jar:/Users/tanishqmotke/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/tanishqmotke/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/Users/tanishqmotke/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/tanishqmotke/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/tanishqmotke/.m2/repository/com/linecorp/armeria/armeria/1.18.0/armeria-1.18.0.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/tanishqmotke/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/tanishqmotke/.m2/repository/io/micrometer/micrometer-core/1.9.2/micrometer-core-1.9.2.jar:/Users/tanishqmotke/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/tanishqmotke/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-haproxy/4.1.79.Final/netty-codec-haproxy-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/tanishqmotke/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-linux-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-classes/2.0.53.Final/netty-tcnative-classes-2.0.53.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-linux-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-osx-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-osx-aarch_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.53.Final/netty-tcnative-boringssl-static-2.0.53.Final-windows-x86_64.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar:/Users/tanishqmotke/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.7.1/brotli4j-1.7.1.jar:/Users/tanishqmotke/.m2/repository/com/aayushatharva/brotli4j/native-osx-x86_64/1.7.1/native-osx-x86_64-1.7.1.jar:/Users/tanishqmotke/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tanishqmotke/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tanishqmotke/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tanishqmotke/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/Users/tanishqmotke/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/Users/tanishqmotke/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar:/Users/tanishqmotke/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/Users/tanishqmotke/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/Users/tanishqmotke/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/tanishqmotke/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/tanishqmotke/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/tanishqmotke/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/tanishqmotke/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/tanishqmotke/.m2/repository/org/yaml/snakeyaml/1.32/snakeyaml-1.32.jar:/Users/tanishqmotke/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/tanishqmotke/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/tanishqmotke/.m2/repository/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149.jar:/Users/tanishqmotke/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/tanishqmotke/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/tanishqmotke/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/tanishqmotke/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/tanishqmotke/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tanishqmotke/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/tanishqmotke/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/tanishqmotke/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tanishqmotke"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="karate.options" value=" --tags @Smoke"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning/target/surefire/surefirebooter8659473746922642060.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2+0"/>
+    <property name="user.name" value="tanishqmotke"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/tanishqmotke/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rl/5mx6h7fn2tg2l0qxbpx7g8lh0000gn/T/"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/tanishqmotke/Documents/Karate Framework/tanishq.karate.learning"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tanishqmotke/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="10.288">
+    <failure message="status code was: 404, expected: 200, response time in milliseconds: 1675, url: https://petstore.swagger.io/v2/pet/1001, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;classpath:examples/users/getPet.feature:90&#10;status code was: 404, expected: 200, response time in milliseconds: 1689, url: https://petstore.swagger.io/v2/pet/1002, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;classpath:examples/users/getPet.feature:90&#10;status code was: 404, expected: 200, response time in milliseconds: 1682, url: https://petstore.swagger.io/v2/pet/1401, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;classpath:examples/users/getPet.feature:90 ==&gt; expected: &lt;0&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 404, expected: 200, response time in milliseconds: 1675, url: https://petstore.swagger.io/v2/pet/1001, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1689, url: https://petstore.swagger.io/v2/pet/1002, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1682, url: https://petstore.swagger.io/v2/pet/1401, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90 ==> expected: <0> but was: <3>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+]]></failure>
+    <system-out><![CDATA[23:45:07.674 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @Smoke
+23:45:09.521 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:45:09.526 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1681928109525
+23:45:09.548 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+23:45:12.130 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:12.244 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:12.266 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:12.276 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:12.291 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:12.813 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1111
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:45:12.813 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1002
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:45:12.814 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1001
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:45:12.820 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1401
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:45:12.825 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:45:14.098 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1268
+1 < 200
+1 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 998
+1 < x-ratelimit-reset: 1643094291
+1 < vary: Origin, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: max-age=43200
+1 < pragma: no-cache
+1 < expires: -1
+1 < x-content-type-options: nosniff
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 27202
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1LlG9SdVOpqrz3Oyx2exb%2BeKVDCXMs2U%2FMyxTjyaAmfSERr4KHPtUmufrWGfYox9N7Qi3O89Jr4S4ts8CtRnpHiLQJCOJWl0ygbMS9Wv%2FIIDwuxtyReQUtpTQc9JLCqko3wAQk2x0unAtMrT%2FzLX"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7ba721b98a7f913c-FRA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+23:45:14.129 [pool-1-thread-5] INFO  com.intuit.karate - [print] null 
+23:45:14.135 [pool-1-thread-5] INFO  com.intuit.karate - [print] dev 
+23:45:14.137 [pool-1-thread-5] INFO  com.intuit.karate - [print] null 
+23:45:14.179 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:45:14.493 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1675
+1 < 404
+1 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+23:45:14.503 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1682
+1 < 404
+1 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+23:45:14.504 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1689
+1 < 404
+1 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+23:45:14.504 [pool-1-thread-1] ERROR com.intuit.karate - classpath:examples/users/getPet.feature:90
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1675, url: https://petstore.swagger.io/v2/pet/1001, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+23:45:14.506 [pool-1-thread-2] ERROR com.intuit.karate - classpath:examples/users/getPet.feature:90
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1689, url: https://petstore.swagger.io/v2/pet/1002, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+23:45:14.507 [pool-1-thread-4] ERROR com.intuit.karate - classpath:examples/users/getPet.feature:90
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1682, url: https://petstore.swagger.io/v2/pet/1401, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+23:45:14.515 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1701
+1 < 404
+1 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+23:45:14.526 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "code": 1,
+  "type": "error",
+  "message": "Pet not found"
+}
+ 
+23:45:14.539 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:45:14.667 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 486
+2 < 200
+2 < Date: Wed, 19 Apr 2023 18:15:14 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1680559281
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 22313
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F5veOKpOGSC7EJ9jr7AGFeIAJd8jXa1z%2F6oWXI3fxNFMujCR3x%2FhpUkU9nX%2BiieFKH3m1NMvqeGWaEYIFKGz%2FLrnKXx5knv2v0%2BEle082up7FVKeJwGyqOotU1Ws%2FkxEPlhfliXpqRH%2BcFhUzJs2"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 7ba721bd3bd30408-FRA
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+23:45:14.738 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+23:45:15.457 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 718
+1 < 201
+1 < Date: Wed, 19 Apr 2023 18:15:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1681928130
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TtJOLvmQEfCtylFPQSHcKgPTG%2BkXSrvFimONoJVltaD9foKRdozPg3l%2BvVjvRBsSYZCjZ96GKVFMdJ9Fkwga4eshifMcHMwiT3%2FEzTjfV7v2cUmE9hZrePIO0x9Tpnpmghy6cJHWoQtf01WfpnHd"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7ba721c11bf49247-FRA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+23:45:15.473 [pool-1-thread-1] INFO  com.intuit.karate - [print] created id is:  11 
+---------------------------------------------------------
+feature: classpath:examples/users/getPet.feature
+scenarios:  4 | passed:  1 | failed:  3 | time: 8.9464
+---------------------------------------------------------
+
+23:45:16.614 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 6 (3 remaining) classpath:examples/users/getPet.feature
+---------------------------------------------------------
+feature: classpath:examples/users/users.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 3.3022
+---------------------------------------------------------
+
+23:45:16.884 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 6 (0 remaining) classpath:examples/users/users.feature
+Karate version: 1.3.1
+======================================================
+elapsed:   9.26 | threads:    5 | thread time: 12.25 
+features:     2 | skipped:    4 | efficiency: 0.26
+scenarios:    6 | passed:     3 | failed: 3
+======================================================
+>>> failed features:
+status code was: 404, expected: 200, response time in milliseconds: 1675, url: https://petstore.swagger.io/v2/pet/1001, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1689, url: https://petstore.swagger.io/v2/pet/1002, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1682, url: https://petstore.swagger.io/v2/pet/1401, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.3.1
+file:///Users/tanishqmotke/Documents/Karate%20Framework/tanishq.karate.learning/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.299 s <<< FAILURE! - in examples.ExamplesTest
+testParallel  Time elapsed: 10.288 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 404, expected: 200, response time in milliseconds: 1675, url: https://petstore.swagger.io/v2/pet/1001, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1689, url: https://petstore.swagger.io/v2/pet/1002, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90
+status code was: 404, expected: 200, response time in milliseconds: 1682, url: https://petstore.swagger.io/v2/pet/1401, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:examples/users/getPet.feature:90 ==> expected: <0> but was: <3>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+
